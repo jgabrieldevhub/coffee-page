@@ -25,6 +25,10 @@ body {
     background-color: var(--bg);
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 section {
     padding: 3rem 2rem;
     margin: 0 auto;
